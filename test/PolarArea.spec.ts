@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { render } from '@testing-library/svelte';
 
-import 'chart.js/auto';
+import 'chart.js-v4/auto';
 import { PolarArea } from '../src/index.js';
 import { data } from '../sandboxes/polar/components/data.js';
 
