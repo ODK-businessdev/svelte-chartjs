@@ -1,4 +1,4 @@
-import type { Chart } from 'chart.js';
+import type { Chart } from 'chart.js-v4';
 
 /**
  * Get dataset from mouse click event

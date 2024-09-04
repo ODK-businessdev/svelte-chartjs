@@ -25,10 +25,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SauravKanchan/svelte-chartjs.git"
+    "url": "git+https://github.com/ODK-businessdev/svelte-chartjs.git"
   },
   "bugs": {
-    "url": "https://github.com/SauravKanchan/svelte-chartjs"
+    "url": "https://github.com/ODK-businessdev/svelte-chartjs"
   },
   "scripts": {
     "build": "svelte-package --input ./src && pnpm lint:package",
@@ -47,7 +47,7 @@
     "updateGitHooks": "simple-git-hooks"
   },
   "peerDependencies": {
-    "chart.js": "^3.5.0 || ^4.0.0",
+    "chart.js-v4": "npm:chart.js@^3.5.4 || npm:chart.js@^4.0.0",
     "svelte": "^4.0.0"
   },
   "devDependencies": {
@@ -75,7 +75,7 @@
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
     "@vitest/coverage-v8": "^1.2.2",
-    "chart.js": "^4.1.2",
+    "chart.js-v4": "npm:chart.js@^4.4.4",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "del-cli": "^5.0.0",

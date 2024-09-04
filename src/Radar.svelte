@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { DefaultDataPoint } from 'chart.js';
-  import { Chart as ChartJS, RadarController } from 'chart.js';
+  import type { DefaultDataPoint } from 'chart.js-v4';
+  import { Chart as ChartJS, RadarController } from 'chart.js-v4';
   import type { ChartBaseProps } from './types/index.js';
   import Chart from './Chart.svelte';
   import { useForwardEvents } from './utils/index.js';

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { DefaultDataPoint } from 'chart.js';
-  import { Chart as ChartJS, PolarAreaController } from 'chart.js';
+  import type { DefaultDataPoint } from 'chart.js-v4';
+  import { Chart as ChartJS, PolarAreaController } from 'chart.js-v4';
   import type { ChartBaseProps } from './types/index.js';
   import Chart from './Chart.svelte';
   import { useForwardEvents } from './utils/index.js';

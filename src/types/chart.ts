@@ -5,13 +5,13 @@ import type {
   DefaultDataPoint,
   Plugin,
   UpdateMode,
-} from 'chart.js';
+} from 'chart.js-v4';
 import type { HTMLAttributes } from './html.js';
 
 export interface ChartBaseProps<
   TType extends ChartType = ChartType,
   TData = DefaultDataPoint<TType>,
-  TLabel = unknown
+  TLabel = unknown,
 > extends Omit<HTMLAttributes, 'type' | 'data' | 'options' | 'plugins'> {
   /**
    * Chart.js chart type

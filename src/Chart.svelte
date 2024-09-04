@@ -1,14 +1,14 @@
 <script lang="ts">
   import { onMount, afterUpdate, onDestroy } from 'svelte';
-  import type { ChartType, DefaultDataPoint } from 'chart.js';
-  import { Chart as ChartJS } from 'chart.js';
+  import type { ChartType, DefaultDataPoint } from 'chart.js-v4';
+  import { Chart as ChartJS } from 'chart.js-v4';
   import type { ChartBaseProps } from './types/index.js';
   import { useForwardEvents } from './utils/index.js';
 
   interface $$Props<
     TType extends ChartType = ChartType,
     TData = DefaultDataPoint<TType>,
-    TLabel = unknown
+    TLabel = unknown,
   > extends ChartBaseProps<TType, TData, TLabel> {
     chart?: ChartJS<TType, TData, TLabel> | null;
   }
